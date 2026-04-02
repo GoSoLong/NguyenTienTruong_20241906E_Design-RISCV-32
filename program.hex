@@ -1,0 +1,44 @@
+// program.hex - Test program for RISC-V Pipeline
+// Each line = one 32-bit instruction (hex, big-endian word)
+// 
+// Assembly:
+//   addi x1, x0, 5      # x1 = 5
+//   addi x2, x0, 3      # x2 = 3
+//   add  x3, x1, x2     # x3 = 8   (EX-EX forward test)
+//   sub  x4, x3, x2     # x4 = 5   (EX-EX forward test)
+//   sw   x3, 0(x0)      # mem[0] = 8
+//   lw   x5, 0(x0)      # x5 = 8   (load-use hazard test)
+//   add  x6, x5, x1     # x6 = 13  (MEM-EX forward after load-use)
+//   addi x7, x0, 8      # x7 = 8
+//   beq  x3, x7, 8      # branch if x3==x7 (should take: x3=8, x7=8)
+//   addi x8, x0, 99     # should be flushed (NOP if branch taken)
+//   addi x9, x0, 42     # x9 = 42  (branch target, should execute)
+//   addi x10,x0, 1      # x10 = 1
+//   and  x11,x1, x2     # x11 = 1  (5 & 3)
+//   or   x12,x1, x2     # x12 = 7  (5 | 3)
+//   xor  x13,x1, x2     # x13 = 6  (5 ^ 3)
+//   slt  x14,x2, x1     # x14 = 1  (3 < 5)
+//   nop
+//   nop
+//   nop
+//   nop
+00500093
+00300113
+002081B3
+40310233
+003022B3
+0000A283
+00528333
+00800393
+00738463
+06300413
+02A004A3
+00100513
+0020F5B3
+0020E633
+0020C6B3
+0010A733
+00000013
+00000013
+00000013
+00000013
