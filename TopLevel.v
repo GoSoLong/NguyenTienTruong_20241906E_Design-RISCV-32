@@ -4,6 +4,16 @@
 // Includes: Forwarding Unit + Hazard Detection Unit
 // Based on CS61C Reference Card datapath
 // ============================================================
+`include "IMEM.v"
+`include "DMEM.v"
+`include "RegFile.v"
+`include "ImmGen.v"
+`include "ALU.v"
+`include "BranchComp.v"
+`include "ControlUnit.v"
+`include "ForwardUnit.v"
+`include "HazardDetect.v"
+`include "PipelineRegs.v"
 
 module TopLevel (
     input clk,

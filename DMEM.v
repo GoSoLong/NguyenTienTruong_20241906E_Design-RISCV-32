@@ -10,8 +10,9 @@ module DMEM (
     output [31:0] data_out
 );
     reg [31:0] mem [0:255];
-    integer i;
+
     initial begin
+        integer i;
         for (i = 0; i < 256; i = i + 1)
             mem[i] = 32'h0;
     end
