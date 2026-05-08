@@ -1,0 +1,46 @@
+# Current time Thu Apr 16 19:20:05 2026
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 18 2018"
+# Platform = win64
+
+Exception c0000005 has occurred at address 405a803b. Traceback:
+# 0    0x405a803b: 'TPedit_Init + 0x1f401b'
+# 1    0x405a4da8: 'TPedit_Init + 0x1f0d88'
+# 2    0x405a5040: 'TPedit_Init + 0x1f1020'
+# 3    0x40227de4: 'Mtirpc_Init + 0x66294'
+# 4    0x5d896c03: 'TclNRRunCallbacks + 0x63'
+# 5    0x90bc0bfa: 'Itcl_EvalMemberCode + 0x3ba'
+# 6    0x90bc1dbb: 'Itcl_ExecMethod + 0x23b'
+# 7    0x5d896c03: 'TclNRRunCallbacks + 0x63'
+# 8    0x90bc0bfa: 'Itcl_EvalMemberCode + 0x3ba'
+# 9    0x90bc1dbb: 'Itcl_ExecMethod + 0x23b'
+# 10   0x5d896c03: 'TclNRRunCallbacks + 0x63'
+# 11   0x90bc0bfa: 'Itcl_EvalMemberCode + 0x3ba'
+# 12   0x90bc1dbb: 'Itcl_ExecMethod + 0x23b'
+# 13   0x90bc9879: 'Itcl_EvalArgs + 0x1c9'
+# 14   0x90bc4b51: 'Itcl_HandleInstance + 0x2c1'
+# 15   0x5d896c03: 'TclNRRunCallbacks + 0x63'
+# 16   0x5d89586c: 'TclCleanupCommand + 0x88c'
+# 17   0x5d89a168: 'Tcl_VarEvalVA + 0x88'
+# 18   0x5d89a0d2: 'Tcl_VarEval + 0x22'
+# 19   0x242d3ce1: 'Nlview_Init + 0x5aa1'
+# 20   0x242d2709: 'Nlview_Init + 0x44c9'
+# 21   0x24152270: '<unknown (@0x24152270)>'
+# 22   0x2414a1c8: '<unknown (@0x2414a1c8)>'
+# 23   0x242d09d4: 'Nlview_Init + 0x2794'
+# 24   0x5c7ec5c7: 'Tk_HandleEvent + 0x2a7'
+# 25   0x5c7eb2da: 'TkDeleteThreadExitHandler + 0x31a'
+# 26   0x5d93d41c: 'Tcl_ServiceEvent + 0x9c'
+# 27   0x5d93d0b4: 'Tcl_DoOneEvent + 0x124'
+# 28   0x5c7eaee5: 'Tk_MainLoop + 0x25'
+# 29   0x5c82d282: 'Tk_MainEx + 0x932'
+# 30   0x401e4590: 'Mtirpc_Init + 0x22a40'
+# 31   0x401e6c38: 'Mtirpc_Init + 0x250e8'
+# 32   0x40626dd7: 'Tclsqlite_Init + 0x5717'
+# 33   0xbf91259d: 'BaseThreadInitThunk + 0x1d'
+# 34   0xc024af38: 'RtlUserThreadStart + 0x28'
+StackWalk failed 0
+# End of Stack Trace
+

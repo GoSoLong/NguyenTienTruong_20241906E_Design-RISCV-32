@@ -1,7 +1,3 @@
-// ============================================================
-// ForwardUnit.v - Data Forwarding Unit
-// Resolves EX-EX and MEM-EX data hazards
-// ============================================================
 module ForwardUnit (
     // EX stage source registers
     input  [4:0]  ex_rs1,

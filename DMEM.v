@@ -1,7 +1,3 @@
-// ============================================================
-// DMEM.v - Data Memory (MEM Stage)
-// CS61C RISC-V 5-Stage Pipeline
-// ============================================================
 module DMEM (
     input        clk,
     input  [31:0] addr,
@@ -10,9 +6,8 @@ module DMEM (
     output [31:0] data_out
 );
     reg [31:0] mem [0:255];
-
+    integer i;
     initial begin
-        integer i;
         for (i = 0; i < 256; i = i + 1)
             mem[i] = 32'h0;
     end

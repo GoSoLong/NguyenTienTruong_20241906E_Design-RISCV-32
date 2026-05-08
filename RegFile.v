@@ -1,8 +1,3 @@
-// ============================================================
-// RegFile.v - Register File (ID / WB Stage)
-// 32 x 32-bit registers, x0 hardwired to 0
-// Two async read ports, one sync write port
-// ============================================================
 module RegFile (
     input         clk,
     // Read ports (ID stage)

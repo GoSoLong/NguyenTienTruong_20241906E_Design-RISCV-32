@@ -1,8 +1,3 @@
-// ============================================================
-// HazardDetect.v - Hazard Detection Unit
-// Detects load-use hazard -> stall 1 cycle
-// Detects control hazard -> flush IF/ID, ID/EX
-// ============================================================
 module HazardDetect (
     // ID stage source registers
     input  [4:0]  id_rs1,

@@ -1,11 +1,3 @@
-// ============================================================
-// PipelineRegs.v - All 4 pipeline stage registers
-// IF/ID  |  ID/EX  |  EX/MEM  |  MEM/WB
-// ============================================================
-
-// ----------------------------------------------------------
-// IF/ID Pipeline Register
-// ----------------------------------------------------------
 module IF_ID_Reg (
     input        clk, rst,
     input        stall,      // hold current value

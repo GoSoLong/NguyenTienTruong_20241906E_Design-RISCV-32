@@ -1,7 +1,3 @@
-// ============================================================
-// ControlUnit.v - Main Control Unit (ID Stage)
-// Decodes instruction -> control signals
-// ============================================================
 module ControlUnit (
     input  [6:0]  opcode,
     input  [2:0]  funct3,

@@ -1,7 +1,3 @@
-// ============================================================
-// tb_TopLevel.v - Testbench for RISC-V Pipeline
-// Compatible with QuestaSim / ModelSim
-// ============================================================
 `timescale 1ns/1ps
 
 module tb_TopLevel;

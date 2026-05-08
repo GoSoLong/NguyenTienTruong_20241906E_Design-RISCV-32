@@ -1,0 +1,597 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sim.tcl
+# QuestaSim-64 vmap 10.7c Lib Mapping Utility 2018.08 Aug 18 2018
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work PipelineRegs.v 
+# -- Compiling module IF_ID_Reg
+# -- Compiling module ID_EX_Reg
+# -- Compiling module EX_MEM_Reg
+# -- Compiling module MEM_WB_Reg
+# 
+# Top level modules:
+# 	IF_ID_Reg
+# 	ID_EX_Reg
+# 	EX_MEM_Reg
+# 	MEM_WB_Reg
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work IMEM.v 
+# -- Compiling module IMEM
+# 
+# Top level modules:
+# 	IMEM
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work DMEM.v 
+# -- Compiling module DMEM
+# 
+# Top level modules:
+# 	DMEM
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work RegFile.v 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work ImmGen.v 
+# -- Compiling module ImmGen
+# 
+# Top level modules:
+# 	ImmGen
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work BranchComp.v 
+# -- Compiling module BranchComp
+# 
+# Top level modules:
+# 	BranchComp
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:34 on May 08,2026
+# vlog -reportprogress 300 -work work ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 19:23:34 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:35 on May 08,2026
+# vlog -reportprogress 300 -work work ForwardUnit.v 
+# -- Compiling module ForwardUnit
+# 
+# Top level modules:
+# 	ForwardUnit
+# End time: 19:23:35 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:35 on May 08,2026
+# vlog -reportprogress 300 -work work HazardDetect.v 
+# -- Compiling module HazardDetect
+# 
+# Top level modules:
+# 	HazardDetect
+# End time: 19:23:35 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:35 on May 08,2026
+# vlog -reportprogress 300 -work work TopLevel.v 
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 19:23:35 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:35 on May 08,2026
+# vlog -reportprogress 300 -work work tb_TopLevel.v 
+# -- Compiling module tb_TopLevel
+# 
+# Top level modules:
+# 	tb_TopLevel
+# End time: 19:23:35 on May 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -voptargs="+acc" work.tb_TopLevel 
+# Start time: 19:23:35 on May 08,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_TopLevel(fast)
+# Loading work.TopLevel(fast)
+# Loading work.IMEM(fast)
+# Loading work.IF_ID_Reg(fast)
+# Loading work.RegFile(fast)
+# Loading work.BranchComp(fast)
+# Loading work.ControlUnit(fast)
+# Loading work.ImmGen(fast)
+# Loading work.HazardDetect(fast)
+# Loading work.ID_EX_Reg(fast)
+# Loading work.ForwardUnit(fast)
+# Loading work.ALU(fast)
+# Loading work.EX_MEM_Reg(fast)
+# Loading work.DMEM(fast)
+# Loading work.MEM_WB_Reg(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Admin  Hostname: DESKTOP-TN04S5C  ProcessID: 10296
+#           Attempting to use alternate WLF file "./wlftkf0n30".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkf0n30
+# --- Cycle 1 ---
+#   PC        = 0x00000000
+#   IF  inst  = 0x00500093
+#   ID  inst  = 0x00000013  pc=0x00000000
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=0
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 2 ---
+#   PC        = 0x00000004
+#   IF  inst  = 0x00300113
+#   ID  inst  = 0x00500093  pc=0x00000000
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=0
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 3 ---
+#   PC        = 0x00000008
+#   IF  inst  = 0x002081b3
+#   ID  inst  = 0x00300113  pc=0x00000004
+#   EX  rd=1  alu_a=0x00000000  alu_b=0x00000005  result=0x00000005
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=0
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 4 ---
+#   PC        = 0x0000000c
+#   IF  inst  = 0x40310233
+#   ID  inst  = 0x002081b3  pc=0x00000008
+#   EX  rd=2  alu_a=0x00000000  alu_b=0x00000003  result=0x00000003
+#   MEM rd=1  alu=0x00000005  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 5 ---
+#   PC        = 0x00000010
+#   IF  inst  = 0x003022b3
+#   ID  inst  = 0x40310233  pc=0x0000000c
+#   EX  rd=3  alu_a=0x00000005  alu_b=0x00000003  result=0x00000008
+#   MEM rd=2  alu=0x00000003  mem_rw=0
+#   WB  rd=1  wb_data=0x00000005  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=10  fwd_b=1
+# 
+# --- Cycle 6 ---
+#   PC        = 0x00000014
+#   IF  inst  = 0x0000a283
+#   ID  inst  = 0x003022b3  pc=0x00000010
+#   EX  rd=4  alu_a=0x00000003  alu_b=0x00000008  result=0xfffffffb
+#   MEM rd=3  alu=0x00000008  mem_rw=0
+#   WB  rd=2  wb_data=0x00000003  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=10  fwd_b=1
+# 
+# --- Cycle 7 ---
+#   PC        = 0x00000018
+#   IF  inst  = 0x00528333
+#   ID  inst  = 0x0000a283  pc=0x00000014
+#   EX  rd=5  alu_a=0x00000000  alu_b=0x00000008  result=0x00000001
+#   MEM rd=4  alu=0xfffffffb  mem_rw=0
+#   WB  rd=3  wb_data=0x00000008  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=10
+# 
+# --- Cycle 8 ---
+#   PC        = 0x0000001c
+#   IF  inst  = 0x00800393
+#   ID  inst  = 0x00528333  pc=0x00000018
+#   EX  rd=5  alu_a=0x00000005  alu_b=0x00000000  result=0x00000005
+#   MEM rd=5  alu=0x00000001  mem_rw=0
+#   WB  rd=4  wb_data=0xfffffffb  reg_wen=1
+#   Hazard: stall=1  flush_if_id=0  flush_id_ex=1
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 9 ---
+#   PC        = 0x0000001c
+#   IF  inst  = 0x00800393
+#   ID  inst  = 0x00528333  pc=0x00000018
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=5  alu=0x00000005  mem_rw=1
+#   WB  rd=5  wb_data=0x00000001  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 10 ---
+#   PC        = 0x00000020
+#   IF  inst  = 0x00738463
+#   ID  inst  = 0x00800393  pc=0x0000001c
+#   EX  rd=6  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=5  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=10  fwd_b=10
+# 
+# --- Cycle 11 ---
+#   PC        = 0x00000024
+#   IF  inst  = 0x06300413
+#   ID  inst  = 0x00738463  pc=0x00000020
+#   EX  rd=7  alu_a=0x00000000  alu_b=0x00000008  result=0x00000008
+#   MEM rd=6  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=0
+#   Hazard: stall=0  flush_if_id=1  flush_id_ex=1
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 12 ---
+#   PC        = 0x00000028
+#   IF  inst  = 0x02a004a3
+#   ID  inst  = 0x00000013  pc=0x00000000
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=7  alu=0x00000008  mem_rw=0
+#   WB  rd=6  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 13 ---
+#   PC        = 0x0000002c
+#   IF  inst  = 0x00100513
+#   ID  inst  = 0x02a004a3  pc=0x00000028
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=7  wb_data=0x00000008  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 14 ---
+#   PC        = 0x00000030
+#   IF  inst  = 0x0020f5b3
+#   ID  inst  = 0x00100513  pc=0x0000002c
+#   EX  rd=9  alu_a=0x00000000  alu_b=0x00000029  result=0x00000029
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=0
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 15 ---
+#   PC        = 0x00000034
+#   IF  inst  = 0x0020e633
+#   ID  inst  = 0x0020f5b3  pc=0x00000030
+#   EX  rd=10  alu_a=0x00000000  alu_b=0x00000001  result=0x00000001
+#   MEM rd=9  alu=0x00000029  mem_rw=10
+#   WB  rd=0  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 16 ---
+#   PC        = 0x00000038
+#   IF  inst  = 0x0020c6b3
+#   ID  inst  = 0x0020e633  pc=0x00000034
+#   EX  rd=11  alu_a=0x00000005  alu_b=0x00000003  result=0x00000001
+#   MEM rd=10  alu=0x00000001  mem_rw=0
+#   WB  rd=9  wb_data=0x00000029  reg_wen=0
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 17 ---
+#   PC        = 0x0000003c
+#   IF  inst  = 0x0010a733
+#   ID  inst  = 0x0020c6b3  pc=0x00000038
+#   EX  rd=12  alu_a=0x00000005  alu_b=0x00000003  result=0x00000007
+#   MEM rd=11  alu=0x00000001  mem_rw=0
+#   WB  rd=10  wb_data=0x00000001  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 18 ---
+#   PC        = 0x00000040
+#   IF  inst  = 0x00000013
+#   ID  inst  = 0x0010a733  pc=0x0000003c
+#   EX  rd=13  alu_a=0x00000005  alu_b=0x00000003  result=0x00000006
+#   MEM rd=12  alu=0x00000007  mem_rw=0
+#   WB  rd=11  wb_data=0x00000001  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 19 ---
+#   PC        = 0x00000044
+#   IF  inst  = 0x00000013
+#   ID  inst  = 0x00000013  pc=0x00000040
+#   EX  rd=14  alu_a=0x00000005  alu_b=0x00000005  result=0x00000000
+#   MEM rd=13  alu=0x00000006  mem_rw=0
+#   WB  rd=12  wb_data=0x00000007  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 20 ---
+#   PC        = 0x00000048
+#   IF  inst  = 0x00000013
+#   ID  inst  = 0x00000013  pc=0x00000044
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=14  alu=0x00000000  mem_rw=0
+#   WB  rd=13  wb_data=0x00000006  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 21 ---
+#   PC        = 0x0000004c
+#   IF  inst  = 0x00000013
+#   ID  inst  = 0x00000013  pc=0x00000048
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=14  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 22 ---
+#   PC        = 0x00000050
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0x00000013  pc=0x0000004c
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=0  flush_id_ex=0
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 23 ---
+#   PC        = 0x00000054
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000050
+#   EX  rd=0  alu_a=0x00000000  alu_b=0x00000000  result=0x00000000
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 24 ---
+#   PC        = 0x00000058
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000054
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=0  alu=0x00000000  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 25 ---
+#   PC        = 0x0000005c
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000058
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=0  wb_data=0x00000000  reg_wen=1
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 26 ---
+#   PC        = 0x00000060
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x0000005c
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 27 ---
+#   PC        = 0x00000064
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000060
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 28 ---
+#   PC        = 0x00000068
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000064
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 29 ---
+#   PC        = 0x0000006c
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000068
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 30 ---
+#   PC        = 0x00000070
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x0000006c
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 31 ---
+#   PC        = 0x00000074
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000070
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 32 ---
+#   PC        = 0x00000078
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000074
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 33 ---
+#   PC        = 0x0000007c
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000078
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 34 ---
+#   PC        = 0x00000080
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x0000007c
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 35 ---
+#   PC        = 0x00000084
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000080
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 36 ---
+#   PC        = 0x00000088
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000084
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 37 ---
+#   PC        = 0x0000008c
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000088
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 38 ---
+#   PC        = 0x00000090
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x0000008c
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 39 ---
+#   PC        = 0x00000094
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000090
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# --- Cycle 40 ---
+#   PC        = 0x00000098
+#   IF  inst  = 0xxxxxxxxx
+#   ID  inst  = 0xxxxxxxxx  pc=0x00000094
+#   EX  rd=x  alu_a=0xxxxxxxxx  alu_b=0xxxxxxxxx  result=0xxxxxxxxx
+#   MEM rd=x  alu=0xxxxxxxxx  mem_rw=0
+#   WB  rd=x  wb_data=0xxxxxxxxx  reg_wen=0
+#   Hazard: stall=0  flush_if_id=x  flush_id_ex=x
+#   Fwd: fwd_a=0  fwd_b=0
+# 
+# === Simulation complete after 40 cycles ===
+# Register File:
+#   x0 = 0x00000000
+#   x1 = 0x00000005
+#   x2 = 0x00000003
+#   x3 = 0x00000008
+#   x4 = 0xfffffffb
+#   x5 = 0x00000000
+#   x6 = 0x00000000
+#   x7 = 0x00000008
+#   x8 = 0x00000000
+#   x9 = 0x00000000
+#   x10 = 0x00000001
+#   x11 = 0x00000001
+#   x12 = 0x00000007
+#   x13 = 0x00000006
+#   x14 = 0x00000000
+#   x15 = 0x00000000
+#   x16 = 0x00000000
+#   x17 = 0x00000000
+#   x18 = 0x00000000
+#   x19 = 0x00000000
+#   x20 = 0x00000000
+#   x21 = 0x00000000
+#   x22 = 0x00000000
+#   x23 = 0x00000000
+#   x24 = 0x00000000
+#   x25 = 0x00000000
+#   x26 = 0x00000000
+#   x27 = 0x00000000
+#   x28 = 0x00000000
+#   x29 = 0x00000000
+#   x30 = 0x00000000
+#   x31 = 0x00000000
+# ** Note: $finish    : tb_TopLevel.v(77)
+#    Time: 415 ns  Iteration: 1  Instance: /tb_TopLevel
+# 1
+# Break in Module tb_TopLevel at tb_TopLevel.v line 77
+# 0 ns
+# 436 ns
+# End time: 19:23:47 on May 08,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 2

@@ -1,0 +1,91 @@
+D:/Code/files_questaSim/IMEM.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/IMEM.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}} D:/Code/files_questaSim/DMEM.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/DMEM.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}} D:/Code/files_questaSim/HazardDetect.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/HazardDetect.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module HazardDetect
+
+Top level modules:
+	HazardDetect
+
+} {} {}} D:/Code/files_questaSim/TopLevel.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/TopLevel.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module TopLevel
+
+Top level modules:
+	TopLevel
+
+} {} {}} D:/Code/files_questaSim/BranchComp.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/BranchComp.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module BranchComp
+
+Top level modules:
+	BranchComp
+
+} {} {}} D:/Code/files_questaSim/PipelineRegs.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/PipelineRegs.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module IF_ID_Reg
+-- Compiling module ID_EX_Reg
+-- Compiling module EX_MEM_Reg
+-- Compiling module MEM_WB_Reg
+
+Top level modules:
+	IF_ID_Reg
+	ID_EX_Reg
+	EX_MEM_Reg
+	MEM_WB_Reg
+
+} {} {}} D:/Code/files_questaSim/tb_TopLevel.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/tb_TopLevel.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_TopLevel
+
+Top level modules:
+	tb_TopLevel
+
+} {} {}} D:/Code/files_questaSim/ControlUnit.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/ControlUnit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} D:/Code/files_questaSim/ALU.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/ALU.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Code/files_questaSim/ForwardUnit.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/ForwardUnit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ForwardUnit
+
+Top level modules:
+	ForwardUnit
+
+} {} {}} D:/Code/files_questaSim/ImmGen.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/ImmGen.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ImmGen
+
+Top level modules:
+	ImmGen
+
+} {} {}} D:/Code/files_questaSim/RegFile.v {1 {vlog -work work -vopt -stats=none D:/Code/files_questaSim/RegFile.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}}
